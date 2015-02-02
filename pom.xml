@@ -886,16 +886,6 @@
       </dependency>
       <dependency>
         <groupId>org.xwiki.platform</groupId>
-        <artifactId>xwiki-platform-cache-infinispan</artifactId>
-        <version>${org.xwiki.platform.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.xwiki.platform</groupId>
-        <artifactId>xwiki-platform-formula-renderer</artifactId>
-        <version>${org.xwiki.platform.version}</version>
-      </dependency>      
-      <dependency>
-        <groupId>org.xwiki.platform</groupId>
         <artifactId>xwiki-platform-rendering-macro-code</artifactId>
         <version>${org.xwiki.platform.version}</version>
       </dependency>
@@ -907,21 +897,6 @@
       <dependency>
         <groupId>org.xwiki.platform</groupId>
         <artifactId>xwiki-platform-rendering-macro-rss</artifactId>
-        <version>${org.xwiki.platform.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.xwiki.platform</groupId>
-        <artifactId>xwiki-platform-formula-macro</artifactId>
-        <version>${org.xwiki.platform.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.xwiki.platform</groupId>
-        <artifactId>xwiki-platform-rendering-macro-cache</artifactId>
-        <version>${org.xwiki.platform.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.xwiki.platform</groupId>
-        <artifactId>xwiki-platform-office-macro</artifactId>
         <version>${org.xwiki.platform.version}</version>
       </dependency>
       <dependency>
