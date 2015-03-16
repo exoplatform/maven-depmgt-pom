@@ -864,6 +864,11 @@
         <artifactId>xwiki-commons-xml</artifactId>
         <version>${org.xwiki.platform.version}</version>
       </dependency>
+      <!--dependency>
+        <groupId>org.xwiki.commons</groupId>
+        <artifactId>xwiki-commons-environment-standard</artifactId>
+        <version>${org.xwiki.platform.version}</version>
+      </dependency-->
       <dependency>
         <groupId>org.xwiki.platform</groupId>
         <artifactId>xwiki-platform-gwt-dom</artifactId>
@@ -947,6 +952,11 @@
       <dependency>
         <groupId>org.xwiki.rendering</groupId>
         <artifactId>xwiki-rendering-syntax-confluence</artifactId>
+        <version>${org.xwiki.platform.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.xwiki.rendering</groupId>
+        <artifactId>xwiki-rendering-syntax-annotatedxhtml</artifactId>
         <version>${org.xwiki.platform.version}</version>
       </dependency>
       <dependency>
