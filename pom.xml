@@ -53,6 +53,7 @@
     <com.google.guava.version>11.0.2</com.google.guava.version>
     <com.google.gwt.version>${version.gwt.plugin}</com.google.gwt.version>
     <com.googlecode.json-simple.version>1.1.1</com.googlecode.json-simple.version>
+    <com.googlecode.owasp-java-html-sanitizer.version>20160413.1</com.googlecode.owasp-java-html-sanitizer.version>
     <com.ibm.icu.version>56.1</com.ibm.icu.version>
     <com.lowagie.itext.version>2.1.7</com.lowagie.itext.version>
     <com.mattbertolini.version>2.0.0</com.mattbertolini.version>
@@ -184,6 +185,11 @@
             <groupId>junit</groupId>
           </exclusion>
         </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
+        <artifactId>owasp-java-html-sanitizer</artifactId>
+        <version>${com.googlecode.owasp-java-html-sanitizer.version}</version>
       </dependency>
       <dependency>
         <groupId>com.ibm.icu</groupId>
